@@ -30,7 +30,7 @@ import static org.hamcrest.Matchers.equalTo;
             restAssuredThat(response->response.body("'job'",equalTo("zion resident")));
         }
         @Step("user received PUT HTTP response code 200")
-        public void validatePUTHTTPResponseCode200(){
+        public void esponseCode200(){
             restAssuredThat(response -> response.statusCode(200));
         }
 

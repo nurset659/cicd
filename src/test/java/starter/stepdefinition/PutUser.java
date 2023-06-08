@@ -28,7 +28,7 @@ public class PutUser {
 
     @And("user received HTTP response code {int} ok")
     public void userReceivedHTTPResponseCode(int arg0) {
-        put.validatePUTHTTPResponseCode200();
+        put.esponseCode200();
     }
 }
 
